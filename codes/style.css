@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@200&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@200&family=Varela+Round&display=swap');
+body {
+  background-color: aquamarine;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+.container{
+  /* height:70vh ; */
+  background-color: black;
+  color: aliceblue;
+  font-family:'Varela Round', sans-serif;
+  display : flex;
+  width: 70%;
+  margin: 23px auto;
+  border-radius: 12px;
+  padding: 12px;
+  background-image: url(/eminem.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 100%;
+}
+.songItemContainer :hover{
+  transform: scale(1.030);
+  z-index: 100;
+  background-color: aquamarine;
+  
+}
+
+nav ul li {
+  padding: 0 15px;
+  cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+ .brand img {
+    width: 45px;
+    padding: 0 8px;
+  }
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.bottom{
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  flex-direction: column;
+  
+}
+.icons{
+margin-top: 14px;
+
+}
+.icons i{
+  cursor: pointer;
+  padding: 0 10px ;
+  position: relative;
+  bottom: 25px;
+}
+
+#myProgressBar{
+  width: 60vw;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  
+}
+.songItemContainer{
+  margin: 30px 0;
+}
+
+.songItem{ 
+  height: 50px;
+ display: flex;
+ background-color: white;
+ color: black;
+ margin: 12px 0;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 10px;
+ cursor: pointer;
+}
+
+.songItem img{
+  width: 40px;
+  margin: 12px 20px;
+  border-radius: 34px;
+}
+.timestamp{
+  margin: 0 23px;
+}
+.songInfo{
+  position: absolute;
+  left: 2.5vw;
+  bottom: 20px;
+  cursor: pointer;
+}
+#masterSongName{
+ position: relative;
+  bottom: 38px;
+ right: 20px;
+ font-size: 18px;
+
+}
+.artist{
+position: absolute;
+bottom: 32%;
+left: 50%;
+font-size: 12px;
+ 
+}
